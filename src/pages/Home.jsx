@@ -17,9 +17,9 @@ function Home({ binaryActive, setBinaryActive }) {
 
         <>
 
-        <title>
-            Isabella's Portfolio
-        </title>
+            <title>
+                Isabella's Portfolio
+            </title>
 
             <section id="home" className="section-container">
 
@@ -49,7 +49,7 @@ function Home({ binaryActive, setBinaryActive }) {
                     </SectionTitle>
 
                     <p>
-                        I'm a senior <span className="highlight">Computer Science</span> student from the <span className="highlight">University of Central Florida (UCF)</span>, 
+                        I'm a senior <span className="highlight">Computer Science</span> student from the <span className="highlight">University of Central Florida (UCF)</span>,
                         fascinated by the process of turning complex problems into simple, working solutions.
                         When I'm not coding, you'll probably find me playing with my cats or solving a problem that I <i>probably</i> could have Googled.
                     </p>
@@ -58,9 +58,9 @@ function Home({ binaryActive, setBinaryActive }) {
 
                         <div className="skill-group">
 
-                            <h3>
+                            <h4>
                                 Languages
-                            </h3>
+                            </h4>
 
                             <ul>
                                 <li>Java</li>
@@ -75,9 +75,9 @@ function Home({ binaryActive, setBinaryActive }) {
 
                         <div className="skill-group">
 
-                            <h3>
+                            <h4>
                                 Web
-                            </h3>
+                            </h4>
 
                             <ul>
                                 <li>HTML</li>
@@ -91,16 +91,58 @@ function Home({ binaryActive, setBinaryActive }) {
 
                         <div className="skill-group">
 
-                            <h3>
+                            <h4>
                                 Tools
-                            </h3>
+                            </h4>
 
                             <ul>
                                 <li>Git</li>
                                 <li>GitHub</li>
                                 <li>Unity</li>
                                 <li>VS Code</li>
+                                <li>Eclipse</li>
+                                <li>Postman</li>
                             </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div className="coursework">
+
+                        <div className="coursework-section">
+
+                            <h3>
+                                Relevant Coursework
+                            </h3>
+
+                            <p>
+                                Data Structures & Algorithms
+                                <span>·</span>
+                                Object-Oriented Programming
+                                <span>·</span>
+                                Discrete Mathematics
+                                <span>·</span>
+                                Systems Software
+                            </p>
+
+                        </div>
+
+                        <div className="coursework-section">
+
+                            <h3>
+                                Upcoming <span>(Fall 2026)</span>
+                            </h3>
+
+                            <p>
+                                Database Systems
+                                <span>·</span>
+                                Artificial Intelligence
+                                <span>·</span>
+                                Computer Vision
+                                <span>·</span>
+                                Web-Based Information Technology
+                            </p>
 
                         </div>
 
@@ -158,7 +200,7 @@ function Home({ binaryActive, setBinaryActive }) {
                     />
 
                     <SectionTitle>
-                       Honors && Awards
+                        Honors && Awards
                     </SectionTitle>
 
                     <Honors />
