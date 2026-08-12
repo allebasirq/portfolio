@@ -102,7 +102,7 @@ semantic analysis, and code generation into a single executable."
 
             <ProjectShowcase
                 title="MIPS Processor Simulator (MySPIM)"
-                description="Simulated execution of MIPS machine code cycle-by-cycle, including Datapath operations and control signal
+                description="Simulated execution of MIPS machine code cycle-by-cycle using the C programming language, including Datapath operations and control signal
 management"
             />
 

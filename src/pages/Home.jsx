@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import BackgroundShape from "../components/BackgroundShape";
@@ -7,6 +8,7 @@ import ExperienceTimeline from "../components/ExperienceTimeline";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Honors from "./Honors";
+import BinaryGame from "../components/BinaryGame";
 
 
 function Home({ binaryActive, setBinaryActive }) {
@@ -167,6 +169,29 @@ function Home({ binaryActive, setBinaryActive }) {
 
             <Reveal>
 
+                <section id="game" className="section-container">
+
+                    <BackgroundShape
+                        color="#00ff88"
+                        className="shape-right"
+                    />
+
+                    <SectionTitle>
+                        Before we wrap up, here is a little activity...
+                    </SectionTitle>
+
+                    <p className="game-intro">
+                        How fresh is your binary knowledge?
+                    </p>
+
+                    <BinaryGame />
+
+                </section>
+
+            </Reveal>
+
+            <Reveal>
+
                 <section id="contact" className="section-container">
 
                     <BackgroundShape
@@ -175,7 +200,7 @@ function Home({ binaryActive, setBinaryActive }) {
                     />
 
                     <SectionTitle>
-                        Say hi!
+                        Let's connect!
                     </SectionTitle>
 
                     <p className="contact-text">
