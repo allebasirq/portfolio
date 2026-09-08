@@ -1,4 +1,3 @@
-import { useState } from "react";
 import TypingText from "./TypingText";
 
 function Hero({ name, title }) {

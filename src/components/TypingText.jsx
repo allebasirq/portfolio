@@ -5,31 +5,28 @@ function TypingText({text}) {
     const [displayText, setDisplayText] = useState("");
 
     useEffect(() => {
+        let index = 0;
+        let interval;
 
-    setDisplayText("");
+        const startTyping = setTimeout(() => {
+            setDisplayText("");
 
-    let index = 0;
+            interval = setInterval(() => {
+                if (index < text.length) {
+                    setDisplayText(text.substring(0, index + 1));
+                    index++;
+                } else {
+                    clearInterval(interval);
+                }
+            }, 100);
+        }, 0);
 
-    const interval = setInterval(() => {
-
-        if (index < text.length) {
-
-            setDisplayText(text.substring(0, index + 1));
-
-            index++;
-
-        } else {
-
+        return () => {
+            clearTimeout(startTyping);
             clearInterval(interval);
+        };
 
-        }
-
-    }, 100);
-
-
-    return () => clearInterval(interval);
-
-}, [text]);
+    }, [text]);
 
     return (
 
