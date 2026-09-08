@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Honors from "./pages/Honors";
 import BinaryRain from "./components/BinaryRain";
 import BinaryToggle from "./components/BinaryToggle";
 import "./App.css";

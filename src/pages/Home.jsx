@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import BackgroundShape from "../components/BackgroundShape";
@@ -11,7 +10,7 @@ import Honors from "./Honors";
 import BinaryGame from "../components/BinaryGame";
 
 
-function Home({ binaryActive, setBinaryActive }) {
+function Home() {
 
     return (
 
