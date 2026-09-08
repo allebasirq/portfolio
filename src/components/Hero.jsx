@@ -1,6 +1,6 @@
 import TypingText from "./TypingText";
 
-function Hero({ name, title }) {
+function Hero({ name, title, minor }) {
 
     return (
 
@@ -12,13 +12,21 @@ function Hero({ name, title }) {
                     text={`hi, ${name} here`}
                 />
 
-                <p className="hero-subtitle">
-                    {title}
-                </p>
+                <span>
 
-                <p className="hero-tagline">
-                    I build software, games, and other things.
-                </p>
+                    <h2 className="hero-subtitle">
+                        {title}
+                    </h2>
+
+                    <h3 className="hero-subtitle">
+                        {minor}
+                    </h3>
+
+                </span>
+
+                <h4 className="hero-tagline">
+                    I build software, games, and other things
+                </h4>
 
                 <a
                     href="mailto:isabellarquesada@gmail.com"

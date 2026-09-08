@@ -29,7 +29,8 @@ function Home() {
 
                 <Hero
                     name="Isabella"
-                    title="Computer Science Student · Mathematics Minor"
+                    title="Computer Science Student"
+                    minor="Mathematics & Intelligent Robotic Systems Minor"
                 />
 
             </section>
@@ -63,8 +64,8 @@ function Home() {
 
                             <ul>
                                 <li>Java</li>
-                                <li>C</li>
-                                <li>C++</li>
+                                <li>Python</li>
+                                <li>C/C++</li>
                                 <li>C#</li>
                                 <li>JavaScript</li>
                             </ul>
@@ -79,8 +80,7 @@ function Home() {
                             </h4>
 
                             <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
+                                <li>HTML/CSS</li>
                                 <li>React</li>
                                 <li>Node.js</li>
                             </ul>
@@ -130,7 +130,7 @@ function Home() {
                         <div className="coursework-section">
 
                             <h3>
-                                Upcoming <span>(Fall 2026)</span>
+                                Current <span>(Fall 2026)</span>
                             </h3>
 
                             <p>
