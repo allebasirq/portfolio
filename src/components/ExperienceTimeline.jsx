@@ -2,7 +2,7 @@ function ExperienceTimeline() {
 
     const experiences = [
         {
-            year: "Incoming Aug 2026",
+            year: "Aug 2026 - Present",
             title: "Teaching Assistant - Security in Computing",
             organization: "College of Engineering and Computer Science, UCF",
             description1: "Support students through scheduled office hours by answering questions, clarifying course concepts, and providing academic guidance.",
